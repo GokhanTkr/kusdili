@@ -25,11 +25,12 @@ while True: #Dongu baslangaci
         break
 
     elif komut in ["encode", "e"]:
-        text = input("Cevrilecek olan yazı: ")
+        text = input("Cevrilecek olan yazi: ")
         modules.yaz(modules.encode(text))
 
-    elif komut in ["encode", "e"]:
-        modules.yaz("komut kullanilabilir durumda degil!\n")
+    elif komut in ["decode", "d"]:
+        text = input("Cevrilecek olan yazi: ")
+        modules.yaz(modules.decode(text))
 
     elif komut in ["yardim", "y"]:
         yardim()
