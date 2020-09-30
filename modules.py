@@ -21,8 +21,8 @@ def encode(yazi, encodeharf = "g"): #encode icin
 
     for i in harfler: #Her harfler in icindeki i
         if i in sesliharf: #Eger i sesli ise
-            decoded = decoded + str(i + encodeharf + i) #k-"u"-"gu"-s
+            encoded = encoded + str(i + encodeharf + i) #k-"u"-"gu"-s
         else: #Degilse
-            decoded = decoded + i #Ekleme yapmadan yaz
+            encoded = encoded + i #Ekleme yapmadan yaz
 
     return str(encoded) #String cikis alacagiz
