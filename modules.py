@@ -30,7 +30,7 @@ def decode(yazi, encodeharf = "g"): #decode icin
     decoded = ""
 
     for i in sesliharf:
-        yazi.split(i+encodeharf):
+        yazi.split(i+encodeharf)
 
     return decoded
 ###^^^^^^^^^^^^^^^^###
