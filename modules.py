@@ -2,7 +2,7 @@
 #-------Ejderhan--------
 #-----------------------
 
-sesliharf = ["a","e","ı","i","u","ü","o","ö"] #Sesli harfler tanimlandi
+sesliharf = ["a","e","ı","i","u","ü","o","ö","A","E","I","İ","U","Ü","O","Ö"] #Sesli harfler tanimlandi
 from time import sleep as sl
 
 def yaz(yazi, sure = 0.005): #Yazı yazdırmak için
