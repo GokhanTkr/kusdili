@@ -10,8 +10,8 @@ def yardim():
     modules.yaz("\nKullanabileceğiniz komutlar şunlardır:")
     modules.yaz("""
     cikis, c : yazilimi durdurmak icin kullanilir.
-    decode, d: sifrelemek icin kullanılır.
-    encode, e: sifreli yaziyi cozmek icin kullanılır. (Aktif degil)
+    decode, d: sifreli yaziyi cozmek icin kullanılır. (Aktif degil)
+    encode, e: sifrelemek icin kullanılır.
     yardim, y: yardim yazisini gosterir.
     """)
 
@@ -25,11 +25,11 @@ while True: #Dongu baslangaci
         break
 
     elif komut in ["encode", "e"]:
-        text = input("Cevrilecek olan yazi: ")
+        text = input("Encode edilecek yazi: ")
         modules.yaz(modules.encode(text))
 
     elif komut in ["decode", "d"]:
-        text = input("Cevrilecek olan yazi: ")
+        text = input("Decode edilecek yazi: ")
         modules.yaz(modules.decode(text))
 
     elif komut in ["yardim", "y"]:
